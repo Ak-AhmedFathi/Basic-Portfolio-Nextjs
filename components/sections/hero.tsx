@@ -69,7 +69,7 @@ export default function Hero() {
         </div>
 
         <div
-          className={`absolute bottom-8 left-1/2 -translate-x-1/2 transition-all duration-1000 animate-pulse-ring ${isVisible ? "opacity-100" : "opacity-0"}`}
+          className={`absolute top-96 left-1/2 -translate-x-1/2 transition-all duration-1000 animate-pulse-ring ${isVisible ? "opacity-100" : "opacity-0"}`}
         >
           <div className="animate-float">
             <svg className="w-6 h-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
